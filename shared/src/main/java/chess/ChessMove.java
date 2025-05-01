@@ -9,8 +9,11 @@ import java.util.Objects;
  * signature of the existing methods.
  */
 public class ChessMove {
+    // Position at the beginning of the move
     ChessPosition startPosition;
+    // Position at the end of the move
     ChessPosition endPosition;
+    // If the piece is a pawn that will be promoted, the piece type it will become
     ChessPiece.PieceType promotionPiece;
     public ChessMove(ChessPosition startPosition, ChessPosition endPosition,
                      ChessPiece.PieceType promotionPiece) {

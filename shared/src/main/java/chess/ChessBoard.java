@@ -56,7 +56,7 @@ public class ChessBoard {
         // Set other pieces
         ChessGame.TeamColor[] colors = {ChessGame.TeamColor.WHITE, ChessGame.TeamColor.BLACK};
         int[] rows = {1, 8};
-        // Adds pieces for row 1, color white, and for row 8, color black
+        // Adds pieces in row 1 for white, and in row 8 for black
         for (int i = 0; i < 2; i++) {
             ChessGame.TeamColor color = colors[i];
             int row = rows[i];
