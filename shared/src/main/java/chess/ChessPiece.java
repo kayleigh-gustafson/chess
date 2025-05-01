@@ -119,7 +119,7 @@ public class ChessPiece {
             for (int x = -2; x < 3; x++) {
                 // For y == -2,-1,0,1,2
                 for (int y = -2; y < 3; y++) {
-                    // If neither number is 0 and the difference is 1, then we have a proper L shape
+                    // If neither number is 0 and the difference is 1, then we have an L shape
                     if (x != 0 && y != 0 && abs(abs(x)-abs(y)) == 1) {
                         int temp_row = row + x;
                         int temp_col = col + y;
